@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.todo-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50vw;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.todo-container h1 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#addTaskdiv {
+  display: flex;
+  justify-content: end;
+}
+
+#addTaskButton {
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addTaskButton:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#deletebutton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#deletebutton:hover {
+  background-color: #c82333;
+}
+
+#markDonebutton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
